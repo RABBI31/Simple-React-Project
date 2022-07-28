@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { NavLink } from 'react-router-dom'
 import React from 'react'
 import MyImage from './images/1.png'
 
@@ -13,18 +13,22 @@ function Main() {
           <div className='flex'>
             <ul className='flex absolute left-96 p-3 font-bold'>
               <li className='pl-7 '>
-                <NavLink to="/" className='hover:pt-6 '>
+                <NavLink to='/' className='hover:pt-6 '>
                   <span className='text-orange-600 '>home</span>
                 </NavLink>
               </li>
               <li className='pl-7'>
-                <NavLink to="/about">
-                  <span className='text-black hover:text-orange-600'>about</span>
+                <NavLink to='/about'>
+                  <span className='text-black hover:text-orange-600'>
+                    about
+                  </span>
                 </NavLink>
               </li>
               <li className='pl-7'>
-                <NavLink to="/services">
-                  <span className='text-black hover:text-orange-600'>services</span>
+                <NavLink to='/services'>
+                  <span className='text-black hover:text-orange-600'>
+                    services
+                  </span>
                 </NavLink>
               </li>
               <li className='pl-7'>
@@ -34,11 +38,16 @@ function Main() {
               </li>
               <li className='pl-7'>
                 <NavLink to='/contact'>
-                  <span className='text-black hover:text-orange-600'>contact</span>
+                  <span className='text-black hover:text-orange-600'>
+                    contact
+                  </span>
                 </NavLink>
               </li>
               <button className=' uppercase flex text-base hover:text-xl bg-orange-600 hover:bg-orange-100 text-white hover:text-black font-bold py-1 px-6 rounded-full whitespace-nowrap ml-7'>
-                <span className='text-white hover:text-black '> get a quote</span>
+                <span className='text-white hover:text-black '>
+                  {' '}
+                  get a quote
+                </span>
               </button>
             </ul>
           </div>
@@ -74,8 +83,8 @@ function Main() {
           consectetur adipiscing elit. Sed eu pharetra ante. Nullam tempus eget
           ex sit amet congue.
         </p>
-        <hr className="mt-7 left-96 right-96 divide-lime-400 border-t-4 border-t-orange-600 absolute ml-72 mr-28 " />
-        <div className=" divide-y-2 divide-orange-600 mt-10"></div>
+        <hr className='mt-7 left-96 right-96 divide-lime-400 border-t-4 border-t-orange-600 absolute ml-72 mr-28 ' />
+        <div className=' divide-y-2 divide-orange-600 mt-10'></div>
         <p className='text-sm ml-56 mr-56 mt-12'>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu
           pharetra ante. Nullam tempus eget ex sit amet congue. Nullam a laoreet
