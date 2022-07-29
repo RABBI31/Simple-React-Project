@@ -8,7 +8,7 @@ function Services() {
       <Headers />
       <div className='mt-10 absolute left-96 top-56'>
         <div>
-          <h1 className='font-xl'>This is about page</h1>
+          <h1 className='font-xl'>This is services page</h1>
         </div>
         <div className='mt-10'>
           <ul>
